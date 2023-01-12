@@ -98,7 +98,7 @@ nav ul li {
     color: #2E388F;
 }
 
-ul li:hover {
+nav ul li:hover {
     color: black;
     background-color: #B0DCF5;
     border-radius: 20px 0px 20px 0px;
@@ -160,4 +160,48 @@ footer p {
     footer p{
         font-size: 7px;
     }
+}
+
+section{
+    width: 30%;
+    height: 700px;
+    display: inline-block;
+    float: left;
+}
+#lado-izquierdo-principal{
+    background: linear-gradient(#ffffff 30%, #B0DCF5);
+    padding-top: 10%;
+}
+
+#lado-izquierdo-principal h3{
+    font-family: 'Comfortaa', cursive;
+    font-size: x-large;
+}
+
+#lado-izquierdo-principal p{
+    font-size: 13px;
+    font-family: 'Arvo', serif;
+    padding-right: 10%;
+}
+
+#lado-derecho-principal{
+    padding-top: 3%;
+    padding-bottom: 8%;
+    padding-left: 5%;
+    font-family: 'Arvo', serif;
+    font-size: 13px;
+}
+
+#lado-derecho-principal article{
+
+    margin-bottom: 20%;
+}
+
+#lado-derecho-principal p{
+    width: 80%;
+}
+
+
+
+#estudios{
 }
