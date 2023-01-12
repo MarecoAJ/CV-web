@@ -136,7 +136,20 @@ footer p {
     }
 }
 
-@media (max-width: 623px) and (min-width: 100px) {
+@media (max-width: 623px) and (min-width: 457px) {
+
+    nav ul li{
+        font-size: 7px;
+        padding: 11.5px 2.5px;
+        display: block;
+    }
+
+    footer p{
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 456px) and (min-width: 100px) {
 
     nav ul li{
         font-size: 7px;
