@@ -201,7 +201,14 @@ section{
     width: 80%;
 }
 
+#estudios dl{
+    width: 80%;
+}
 
+.visible{
+    display: block;
+}
 
-#estudios{
+.visible.oculto{
+    display: none;
 }
