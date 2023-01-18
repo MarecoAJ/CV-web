@@ -6,10 +6,10 @@ var contadorConocimientos = 0;
 function ocultar(contador, idElemento){
     if(contador==0){
         
-        document.getElementById(idElemento).classList.add("oculto");
+        document.getElementById(idElemento).classList.remove("oculto");
         contador++;
     }else{
-        document.getElementById(idElemento).classList.remove("oculto");
+        document.getElementById(idElemento).classList.add("oculto");
         contador = 0;
     }
 }
