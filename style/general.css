@@ -212,3 +212,19 @@ section{
 .visible.oculto{
     display: none;
 }
+
+#dlDatosContacto{
+font-family: 'Arvo', serif;
+font-size: 13px;
+width: 80%;
+}
+
+#dlDatosContacto dd , #dlDatosContacto dt {
+    padding: 6.5px;
+    text-align: left;
+}
+
+.aDatosRedes{
+    float: left;
+    margin-bottom: 2px;
+}
